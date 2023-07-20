@@ -1,0 +1,59 @@
+.Swiper {
+  position: relative;
+
+  .SwiperContainer {
+    overflow: hidden;
+
+    .SwiperItems {
+      display: flex;
+      transition: transform 0.3s ease;
+    }
+  }
+
+  .Pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+    .PaginationItem {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background-color: gray;
+      margin-right: 5px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: darkgray;
+      }
+
+      &.Active {
+        background-color: black;
+      }
+    }
+  }
+
+  .PrevButton,
+  .NextButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .PrevButton {
+    left: 10px;
+  }
+
+  .NextButton {
+    right: 10px;
+  }
+}

@@ -1,0 +1,14 @@
+@import "./reset";
+@import "./variables/global";
+
+.app {
+  color: var(--primary-color);
+  font: var(--font-m);
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1250px;
+  padding: 0 15px;
+  margin: 0 auto;
+}

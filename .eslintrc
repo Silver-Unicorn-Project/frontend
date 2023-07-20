@@ -1,0 +1,16 @@
+{
+  "extends": ["eslint:recommended", "prettier"],
+  "parser": "@typescript-eslint/parser",
+  "env": {
+    "node": true
+  },
+  "root": true,
+  "parserOptions": {
+    "ecmaVersion": 2021,
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-console": "error"
+  }
+}
+
