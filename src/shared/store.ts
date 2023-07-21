@@ -1,5 +1,5 @@
 import {combineReducers} from "redux";
-import todosReducer from "widgets/CardItem/reducers";
+import todosReducer from "pages/MainPage/reducers";
 
 const rootReducer = combineReducers({
   todos: todosReducer,
