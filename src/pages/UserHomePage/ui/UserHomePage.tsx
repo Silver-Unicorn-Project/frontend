@@ -5,7 +5,7 @@ export const UserHomePage  = () => {
   return (
     <div className="Main">
       <div className="container">
-        <Autorization />
+
       </div>
 
     </div>
@@ -14,3 +14,4 @@ export const UserHomePage  = () => {
 
 };
 export default UserHomePage
+

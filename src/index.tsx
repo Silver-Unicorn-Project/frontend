@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom'
 import {applyMiddleware, compose, createStore} from "redux";
 import thunk from "redux-thunk";
-import rootReducer from "shared/lib/store";
+import rootReducer from "shared/store";
 
 // ReactDom.render(
 //   <HashRouter>
