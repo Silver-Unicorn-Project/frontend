@@ -4,7 +4,8 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom'
 import {applyMiddleware, compose, createStore} from "redux";
 import thunk from "redux-thunk";
-import rootReducer from "shared/lib/store";
+import {rootReducer} from "shared/store";
+import {Provider} from "react-redux";
 
 // ReactDom.render(
 //   <HashRouter>
@@ -31,7 +32,9 @@ export type RootState = ReturnType<typeof rootReducer>
 // Inferred type: {posts: PostsState, comments: CommentsState, users: UsersState}
 
 root.render(
+  <Provider store={store}>
     <BrowserRouter>
         <App/>
     </BrowserRouter>
+  </Provider>
 )
