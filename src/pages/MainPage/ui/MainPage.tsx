@@ -29,7 +29,6 @@ console.log("I am here")
       </div>
       <CardItem/>
      
-      <CardItem/>
     </div>
   );
 };
