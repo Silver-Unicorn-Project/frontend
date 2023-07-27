@@ -1,5 +1,5 @@
-import {AppDispatch} from "shared/lib/GeneralTypes/ReduxTypes";
-import {GET_PRODUCT_DATA_REQUEST, REQUEST_FAILED, REQUEST_SUCCESS} from "shared/store";
+import {AppDispatch} from "shared/lib/generalTypes/reduxTypes";
+import {GET_PRODUCT_DATA_REQUEST, REQUEST_FAILED, REQUEST_SUCCESS} from "shared/consts/store";
 import {_QUERY, IItem} from "shared/api/apiTypes";
 import {errorHandling} from "shared/api/apiUtil";
 

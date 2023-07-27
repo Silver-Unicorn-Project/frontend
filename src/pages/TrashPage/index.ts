@@ -1,3 +1,1 @@
-import { TrashPageAsync } from 'pages/TrashPage/ui/TrashPage.async';
-
-export { TrashPageAsync as TrashPage };
+export { TrashPageAsync as TrashPage } from 'pages/TrashPage/ui/TrashPage.async';

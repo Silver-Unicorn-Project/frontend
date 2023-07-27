@@ -1,3 +1,3 @@
 import { lazy } from 'react';
 
-export const TrashPageAsync = lazy(() => import('./TrashPage'));
+export const TrashPageAsync = lazy(async () => await import('./TrashPage'));

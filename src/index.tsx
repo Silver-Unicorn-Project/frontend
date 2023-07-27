@@ -4,22 +4,14 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom'
 import {applyMiddleware, compose, createStore} from "redux";
 import thunk from "redux-thunk";
-import {rootReducer} from "shared/store";
+import {rootReducer} from "shared/consts/store";
 import {Provider} from "react-redux";
-
-// ReactDom.render(
-//   <HashRouter>
-//     <App />
-//   </HashRouter>,
-//   document.getElementById('root')
-// );
 
 declare global {
   interface Window {
     __REDUX_DEVTOOLS_EXTENSION_COMPOSE__?: typeof compose;
   }
 }
-
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 

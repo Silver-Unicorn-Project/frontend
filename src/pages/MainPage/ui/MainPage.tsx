@@ -6,7 +6,7 @@ import getProductsData from "pages/MainPage/actions";
 import {useDispatch, useSelector} from "shared/lib/customHooks/customHooks";
 import { RootState } from 'index';
 
-export const MainPage = () => {
+const MainPage = () => {
   const dispatch = useDispatch();
   const [loading, setLoading]= useState(true);
   

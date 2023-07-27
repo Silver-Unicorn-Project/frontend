@@ -1,4 +1,4 @@
-import {GET_PRODUCT_DATA_REQUEST, REQUEST_FAILED, REQUEST_SUCCESS} from "shared/store";
+import {GET_PRODUCT_DATA_REQUEST, REQUEST_FAILED, REQUEST_SUCCESS} from "shared/consts/store";
 import {IItem} from "shared/api/apiTypes";
 
 export interface  IItemsState{
