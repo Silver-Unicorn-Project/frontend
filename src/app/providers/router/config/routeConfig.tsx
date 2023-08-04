@@ -4,7 +4,8 @@ import {
     getRouteCatalog,
     getRouteMain,
     getRouteNews,
-    getRouteTrash
+    getRouteTrash,
+    getRouteUser
 } from "shared/consts/router";
 import {AppRouteProps} from "shared/types/routerUserRoles";
 import {AboutPage} from "pages/AboutPage";
@@ -14,6 +15,7 @@ import {NotFoundPage} from "pages/NotFoundPage";
 import {TrashPage} from "pages/TrashPage";
 import MainPage from "pages/MainPage/ui/MainPage";
 import React from "react";
+import { UserHomePage } from "pages/UserHomePage";
 
 export const routeConfig: Record<AppRoutes, AppRouteProps> = {
     [AppRoutes.MAIN]: {
@@ -35,6 +37,10 @@ export const routeConfig: Record<AppRoutes, AppRouteProps> = {
     [AppRoutes.TRASH]: {
         path: getRouteTrash(),
         element: <TrashPage/>
+    },
+    [AppRoutes.USER]: {
+        path: getRouteUser(),
+        element: <UserHomePage/>
     },
     [AppRoutes.NOT_FOUND]: {
         path: '*',

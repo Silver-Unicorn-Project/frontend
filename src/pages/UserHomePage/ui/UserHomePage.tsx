@@ -7,7 +7,7 @@ export const UserHomePage  = () => {
       <div className="container">
 
       </div>
-
+    <Autorization/>
     </div>
   );
 
