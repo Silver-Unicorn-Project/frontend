@@ -29,7 +29,7 @@ const initialState: IItemsState = {
 
 
 // Reducer
-const todosReducer = (state = initialState, action) => {
+const todosReducer = (state = initialState, action:any) => {
   switch (action.type) {
     case GET_PRODUCT_DATA_REQUEST:
       // handle adding a todo to the state

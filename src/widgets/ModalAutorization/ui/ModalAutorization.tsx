@@ -10,6 +10,10 @@ interface Autorization {
 
 export const Autorization: FC<Autorization> = ({ className }) => {
   const [activeTab, setActiveTab] = useState<'login' | 'register'>('login');
+  const [username, setUserName] = useState('');
+  const [password, setPassword] = useState('');
+  const [confirmPassword, setConfirmedPassword] = useState('');
+  const [email, setEmail] = useState('');
 
   const handleTabClick = (tab: 'login' | 'register') => {
     setActiveTab(tab);
@@ -39,28 +43,35 @@ export const Autorization: FC<Autorization> = ({ className }) => {
           {activeTab === 'login' ? (
             <form onSubmit={handleFormSubmit}>
               <label>
-                <span>Username:</span> 
-                <input type="text" name="username" />
+                <span>Username:</span>
+                <input type="text" name="username" onChange={(e) => setUserName(e.target.value)} />
               </label>
+
               <label>
                 <span>Password:</span>
-                <input type="password" name="password" />
+                <input type="password" name="password" onChange={(e) => setPassword(e.target.value)} />
               </label>
+
               <button type="submit">Login</button>
             </form>
           ) : (
             <form onSubmit={handleFormSubmit}>
               <label>
                 <span>Username:</span>
-                <input type="text" name="username" />
+                <input type="text" name="username" onChange={(e) => setUserName(e.target.value)} />
               </label>
+
               <label>
                 <span>Password:</span>
-                <input type="password" name="password" />
+                <input type="password" name="password" onChange={(e) => setPassword(e.target.value)} />
               </label>
               <label>
                 <span>Confirm Password:</span>
-                <input type="password" name="confirmPassword" />
+                <input type="password" name="confirmPassword" onChange={(e) => setConfirmedPassword(e.target.value)} />
+              </label>
+              <label>
+                <span>Email:</span>
+                <input type="email" name="email" onChange={(e) => setEmail(e.target.value)} />
               </label>
               <button type="submit">Register</button>
             </form>

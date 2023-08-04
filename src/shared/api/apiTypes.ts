@@ -1,4 +1,4 @@
-export const _QUERY = "http://127.0.0.1:8000/"
+export const _QUERY = "http://89.208.106.153/"
 
 
 export  interface IItem {
