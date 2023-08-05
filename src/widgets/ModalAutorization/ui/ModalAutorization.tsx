@@ -27,6 +27,7 @@ export const Autorization: FC<Autorization> = ({ className }) => {
       // Register form submission logic
     }
   };
+  // TO ADD
 
   return (
     <div className={classNames(cls.authorizeBox, {}, [className])}>
