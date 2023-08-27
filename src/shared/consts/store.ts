@@ -7,8 +7,22 @@ export const REQUEST_SUCCESS  = 'REQUEST_SUCCESS' as const;
 
 export const REQUEST_FAILED  = 'REQUEST_FAILED' as const;
 
+export const AUTH_REQUEST_STARTED = 'AUTH_REQUEST_STARTED' as const;
+export const AUTH_REQUEST_SUCCESS = 'AUTH_REQUEST_SUCCESS' as const;
+export const AUTH_REQUEST_FAILED = 'AUTH_REQUEST_FAILED' as const;
+
+
+
+
+
+
+
+
+
+
 export const rootReducer = combineReducers({
   todos: todosReducer,
+  auth: authReducer
   // Add other feature reducers here if you have more features
 });
 
