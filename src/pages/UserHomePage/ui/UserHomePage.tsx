@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import { Autorization } from "widgets/ModalAutorization";
+import { Authorization } from "widgets/ModalAutorization";
 
 export const UserHomePage  = () => {
   return (
@@ -7,7 +7,7 @@ export const UserHomePage  = () => {
       <div className="container">
 
       </div>
-    <Autorization/>
+    <Authorization/>
     </div>
   );
 

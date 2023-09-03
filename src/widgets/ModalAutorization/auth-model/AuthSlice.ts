@@ -2,7 +2,7 @@ import {createSlice, createAsyncThunk} from "@reduxjs/toolkit";
 import {_QUERY} from "shared/api/apiTypes";
 import {RootState} from "shared/consts/store";
 
-const postUser = async (userData: IUser) => {
+export const postUser = async (userData: IUser) => {
   const response = await fetch(`${_QUERY}api/users/`, {
     method: 'POST',
     headers: {
@@ -22,7 +22,7 @@ export const postApiData = createAsyncThunk<IUser, any, object>('api/post', asyn
   return response;
 });
 
-interface IUser {
+export interface IUser {
   username: string;
   email: string;
   password: string;
