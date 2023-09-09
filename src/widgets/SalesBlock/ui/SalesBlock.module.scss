@@ -1,0 +1,52 @@
+.salesContainer {
+  margin: 0 86px 60px;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.headerText {
+  color: var(--accent-dark-color);
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  margin-right: 12px;
+}
+
+.headerBoarderLine {
+  color: var(--accent-primary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardsContainer {
+  margin: 36px 0 40px 0;
+  display: flex;
+  flex-direction: row;
+  max-width: 1108px;
+}
+
+.showAllContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  color: var(--accent-primary-color);
+  width: 1108px;
+  height: 56px;
+  margin: 20px 0 60px;
+  cursor: pointer;
+}
+
+.showAllContainer:hover {
+  border: 1px solid var(--accent-primary-color);
+  border-radius: 8px;
+}

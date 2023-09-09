@@ -1,0 +1,46 @@
+.commentCardContainer {
+  display: flex;
+  width: 356px;
+  min-height: 320px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 15px 15px 15px 5px;
+  border-radius: 12px;
+  background: var(--bg-light-grey);
+  padding: 20px;
+  transition: var(--transition-base);
+}
+
+.commentCardContainer:hover {
+  scale: 1.01;
+  box-shadow: 5px 5px 15px rgba(250, 232, 255, 0.7);
+  cursor: pointer;
+}
+
+.userName {
+  color: var(--accent-dark-color);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 34px;
+  margin-bottom: 10px;
+}
+
+.stars {
+  margin-bottom: 20px;
+}
+
+.commentText {
+  height: 155px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px;
+  display: -webkit-box;
+  max-width: 284px;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

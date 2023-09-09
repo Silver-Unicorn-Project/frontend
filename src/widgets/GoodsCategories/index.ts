@@ -1,0 +1,1 @@
+export { GoodsCategories } from './ui/GoodsCategories'

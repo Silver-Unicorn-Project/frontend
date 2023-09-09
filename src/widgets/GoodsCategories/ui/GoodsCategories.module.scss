@@ -1,0 +1,49 @@
+.tableBody {
+  margin: 60px 86px;
+}
+
+.cardBig {
+  display: flex;
+  flex-direction: column;
+  max-width: 356px;
+  max-height: 380px;
+  scale: 1;
+  transition: var(--transition-base);
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.cardBig:hover {
+  scale: 1.01;
+  box-shadow: 5px 5px 15px rgba(250, 232, 255, 0.7);
+}
+
+.imgBig {
+  width: 356px;
+}
+
+.imgSmallSplit {
+  width: 356px;
+  transition: var(--transition-base);
+  border-radius: 12px;
+}
+
+.imgSmallSplit:hover {
+  scale: 1.01;
+  box-shadow: 5px 5px 15px rgba(250, 232, 255, 0.7);
+}
+
+.imgSmallSplit:first-child {
+  margin-bottom: 20px;
+}
+
+.imgSmall {
+  width: 356px;
+  transition: var(--transition-base);
+  border-radius: 12px;
+}
+
+.imgSmall:hover {
+  scale: 1.01;
+  box-shadow: 5px 5px 15px rgba(250, 232, 255, 0.7);
+}

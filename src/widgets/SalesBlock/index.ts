@@ -1,0 +1,1 @@
+export { SalesBlock } from './ui/SalesBlock'

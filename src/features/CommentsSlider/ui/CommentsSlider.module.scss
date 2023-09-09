@@ -1,0 +1,30 @@
+.sliderContainer {
+  position: relative;
+  display: block;
+}
+
+.leftArrow {
+  cursor: pointer;
+  scale: 1;
+  color: var(--accent-dark-color);
+  transition: var(--transition-base);
+}
+
+.leftArrow:hover {
+  scale: 1.3;
+}
+
+.rightArrow {
+  cursor: pointer;
+  scale: 1;
+  transition: var(--transition-base);
+}
+
+.rightArrow:hover {
+  scale: 1.3;
+}
+
+.commentsCard {
+  width: 356px;
+  min-height: 320px;
+}

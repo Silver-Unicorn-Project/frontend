@@ -1,0 +1,105 @@
+.footerContainer {
+  width: 100%;
+  background-color: var(--accent-primary-color);
+  padding: 40px 86px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 258px;
+}
+
+.footerIcon {
+  color: white;
+}
+
+.buyersContainer {
+  width: 217px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: white;
+}
+
+.buyersContainerHeader {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: 12px;
+}
+
+.buyersContainerList {
+  margin-bottom: 12px;
+}
+
+.buyersContainerListItem {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  transition: var(--transition-base);
+}
+
+.buyersContainerListItem:hover {
+  font-weight: 700;
+}
+
+.serviceContainer {
+  width: 92px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: white;
+}
+
+.serviceContainerHeader {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: 12px;
+}
+
+.serviceContainerList {
+  margin-bottom: 12px;
+}
+
+.serviceContainerListItem {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  transition: var(--transition-base);
+}
+
+.serviceContainerListItem:hover {
+  font-weight: 700;
+}
+
+.contactContainer {
+  width: 217px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: white;
+}
+
+.contactContainerTel {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+
+.contactContainerEmail {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}

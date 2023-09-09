@@ -1,0 +1,64 @@
+.navbarHeader {
+  width: 100%;
+  background-color: var(--accent-primary-color);
+  padding: 18px 86px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  min-width: 404px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.link {
+  color: var(--text-primary-color);
+  text-decoration: none;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.link:hover {
+  font-weight: 700;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  min-width: 186px;
+}
+
+.tel {
+  color: var(--text-primary-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  display: flex;
+  align-items: start;
+  min-height: 26px;
+}
+
+.logo {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  color: white;
+  transition: var(--transition-base);
+}
+
+.logo:hover {
+  fill: white;
+}

@@ -1,0 +1,38 @@
+.aboutUsContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 0 86px 60px;
+}
+
+.img {
+  width: 376px;
+  height: 380px;
+}
+
+.aboutUsBlock {
+  display: flex;
+  flex-direction: column;
+  padding: 60px 24px;
+  width: 732px;
+  background-color: var(--bg-light-grey);
+  border-bottom-left-radius: 12px;
+  border-top-left-radius: 12px;
+}
+
+.header {
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  color: var(--accent-dark-color);
+  margin-bottom: 20px;
+}
+
+.text {
+  width: 492px;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  color: var(--accent-dark-color);
+}

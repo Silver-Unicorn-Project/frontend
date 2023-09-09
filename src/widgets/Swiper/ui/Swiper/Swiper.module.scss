@@ -1,5 +1,6 @@
 .Swiper {
   position: relative;
+  margin: 20px 86px 80px;
 
   .SwiperContainer {
     overflow: hidden;
@@ -19,16 +20,20 @@
       width: 12px;
       height: 12px;
       border-radius: 50%;
-      background-color: gray;
+      background-color: white;
+      border: var(--accent-secondary-color) 1px solid;
       margin-right: 5px;
       cursor: pointer;
 
       &:hover {
-        background-color: darkgray;
+        background-color: var(--bg-grey);
       }
 
       &.Active {
-        background-color: black;
+        border: none;
+        border-radius: 8px;
+        width: 36px;
+        background: linear-gradient(white, var(--accent-primary-color));
       }
     }
   }

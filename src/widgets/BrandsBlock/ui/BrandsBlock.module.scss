@@ -1,0 +1,26 @@
+.brandsContainer {
+  margin: 0 86px 60px;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.headerText {
+  color: var(--accent-dark-color);
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  margin-right: 12px;
+}
+
+.headerBoarderLine {
+  color: var(--accent-primary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
