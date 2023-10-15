@@ -1,8 +1,12 @@
 .navbarBody {
+  position: sticky;
   width: 100%;
   padding: 14px 86px;
   display: flex;
   align-items: center;
+  z-index: 1000;
+  top: 0;
+  background-color: white;
 }
 
 .logo {
@@ -15,6 +19,7 @@
   width: 122px;
   margin-right: 24px;
   border-radius: 8px;
+  height: 40px;
 }
 
 .loop {

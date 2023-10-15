@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import cls from './Swiper.module.scss'
 import { SwiperItem } from '../../../SwiperItem/index'
-import Banner1 from '../../../../shared/assets/banner/Banner1.png'
-import Banner2 from '../../../../shared/assets/banner/Banner2.png'
-import Banner3 from '../../../../shared/assets/banner/Banner3.png'
+import Banner1 from 'shared/assets/banners/Banner1.png'
+import Banner2 from 'shared/assets/banners/Banner2.png'
+import Banner3 from 'shared/assets/banners/Banner3.png'
 
 interface SwiperProps {
     className?: string;

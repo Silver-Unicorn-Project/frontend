@@ -12,7 +12,6 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
   padding: 0;
   margin: 0;
 }
@@ -24,6 +23,16 @@
   font-style: normal;
   font-weight: 500;
   line-height: 26px;
+  width: 90px;
+  margin-right: 22px;
+}
+
+.link:nth-child(2) {
+  width: 70px;
+}
+
+.link:nth-child(3) {
+  width: 80px;
 }
 
 .link:hover {
@@ -37,7 +46,7 @@
   justify-content: space-between;
   padding: 0;
   margin: 0;
-  min-width: 186px;
+  min-width: 190px;
 }
 
 .tel {
@@ -56,6 +65,7 @@
   height: 24px;
   cursor: pointer;
   color: white;
+  box-sizing: border-box;
   transition: var(--transition-base);
 }
 
