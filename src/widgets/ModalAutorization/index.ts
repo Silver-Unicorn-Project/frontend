@@ -1,3 +1,3 @@
 import { Authorization } from './ui/ModalAutorization'
 
-export { Authorization };
+export { Authorization};
