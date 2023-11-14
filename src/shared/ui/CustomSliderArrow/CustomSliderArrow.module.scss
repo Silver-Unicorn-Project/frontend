@@ -1,0 +1,9 @@
+.arrowStyle {
+  cursor: pointer;
+  scale: 1;
+  transition: var(--transition-base);
+}
+
+.arrowStyle:hover {
+  scale: 1.3;
+}

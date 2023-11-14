@@ -8,7 +8,8 @@ import {
     getRouteMain,
     getRouteNews,
     getRoutePayment,
-    getRouteTrash
+    getRouteTrash,
+    getRouteNotFound
 } from 'shared/consts/router'
 import { AppRouteProps } from 'shared/types/routerUserRoles'
 import { AboutPage } from 'pages/AboutPage'
@@ -61,7 +62,7 @@ export const routeConfig: Record<AppRoutes, AppRouteProps> = {
         element: <TrashPage/>
     },
     [ AppRoutes.NOT_FOUND ]: {
-        path: '*',
+        path: getRouteNotFound(),
         element: <NotFoundPage/>
     }
 
